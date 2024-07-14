@@ -90,6 +90,28 @@
         "Pepino"
       ],
       "status": "Solicitado"
+    },
+    {
+      "id": "ba39",
+      "nome": "Hemilly Raiane",
+      "carne": "Maminha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Salame",
+        "Bacon",
+        "Tomate"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "a4e5",
+      "nome": "Julio",
+      "carne": "Veggie burger",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Salame"
+      ],
+      "status": "Solicitado"
     }
   ]
 }

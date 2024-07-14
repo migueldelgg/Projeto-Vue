@@ -1,8 +1,8 @@
 <template>
-  <div class="burger-table">
+  <div id="burger-table" v-if="burgers">
     <div>
       <div id="burger-table-heading">
-        <div class="order.id">#:</div>
+        <div class="order-id">#:</div>
         <div>Cliente:</div>
         <div>Pão:</div>
         <div>Carne:</div>
@@ -26,6 +26,9 @@
         <div>
           <select name="status" id="status">
             <option value="">Selecione o status do hamburguer</option>
+            <option v-for="s in status" :key="s.id" value="s.tipo" :selected="burger.status == s.tipo">
+              {{ s.tipo }}
+            </option>
           </select>
           <button class="delete-btn">Cancelar</button>
         </div>
@@ -52,12 +55,21 @@ export default {
 
       this.burgers = data;
 
-      console.log(this.burgers);
       // resgatar status
+
+      this.getStatus();
     },
+    async getStatus(){
+      const req = await fetch("http://localhost:3000/status");
+
+      const data = await req.json()
+
+      this.status = data;
+    }
   },
   mounted() {
     this.getPedidos();
+    this.getStatus();
   },
 };
 </script>
