@@ -79,58 +79,16 @@
   ],
   "burgers": [
     {
-      "id": "3d9d",
+      "id": "b878",
       "nome": "Miguel",
-      "carne": "Maminha",
-      "pao": "3 Queijos",
-      "opcionais": [],
-      "status": "Solicitado"
-    },
-    {
-      "id": "b9c1",
-      "nome": "Julio",
       "carne": "Picanha",
-      "pao": "Integral",
-      "opcionais": [],
-      "status": "Solicitado"
-    },
-    {
-      "id": "cc0d",
-      "nome": "Hemilly",
-      "carne": "Veggie burger",
       "pao": "3 Queijos",
       "opcionais": [
         "Bacon",
         "Salame",
-        "Cebola roxa"
+        "Cebola roxa",
+        "Pepino"
       ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "714c",
-      "nome": "Miguel",
-      "carne": "Alcatra",
-      "pao": "Integral",
-      "opcionais": [
-        "Bacon",
-        "Salame"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "d6ff",
-      "nome": "Miguel",
-      "carne": "Picanha",
-      "pao": "3 Queijos",
-      "opcionais": [],
-      "status": "Solicitado"
-    },
-    {
-      "id": "f4bf",
-      "nome": "Miguel",
-      "carne": "Maminha",
-      "pao": "Italiano Branco",
-      "opcionais": [],
       "status": "Solicitado"
     }
   ]
