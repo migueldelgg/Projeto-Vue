@@ -90,6 +90,14 @@
         "Pepino"
       ],
       "status": "Solicitado"
+    },
+    {
+      "id": "4b1a",
+      "nome": "Miguel",
+      "carne": "Maminha",
+      "pao": "Italiano Branco",
+      "opcionais": [],
+      "status": "Finalizado"
     }
   ]
 }
